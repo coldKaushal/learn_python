@@ -191,12 +191,27 @@ while loop -> you have to write "I want to eat ice cream" until i tell you to st
 
 syntax:
 
+```python
 while <condition>:
     <code block>
     <optionally i can add a breaking condition"
+```
 
 
-while loop says if condition is true i will "keep" doing this
 
-if condition -> if it is true i will do this.
+Question 6
 
+Guess game: There will be a system generated number, with value 58.
+We will take a number from user, if the number is greater than system generated number we will print, "You won"
+else, we will continue to ask a number from user.
+
+
+Steps
+
+1. Create a system generated number with value 58.
+2. Take a number from user
+3. Create a while loop that runs if the number is less than or equal to the system generated number.
+    3a. Print -> Try again
+    3b. Take the number from user again
+
+4. Print -> You won
