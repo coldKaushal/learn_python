@@ -199,7 +199,7 @@ while <condition>:
 
 
 
-Question 6
+Question 7
 
 Guess game: There will be a system generated number, with value 58.
 We will take a number from user, if the number is greater than system generated number we will print, "You won"
@@ -209,9 +209,13 @@ else, we will continue to ask a number from user.
 Steps
 
 1. Create a system generated number with value 58.
-2. Take a number from user
-3. Create a while loop that runs if the number is less than or equal to the system generated number.
-    3a. Print -> Try again
-    3b. Take the number from user again
 
+2. Take a number from user
+
+3. Create a while loop that runs if the number is less than or equal to the system generated number.
+
+    3a. Print -> Try again
+
+    3b. Take the number from user again
+    
 4. Print -> You won
