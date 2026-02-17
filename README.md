@@ -116,19 +116,25 @@ positive range -> [0, N)
 negative range -> [-1, -N] -> gives opposite list.
 
 -1 means last element.
-
+example:
+```python
+numbers_array = [1,2,3,4]
+```
 
 ### Loops
 
 #### for loop
 
+Syntax
+```python
 for <range>:
     <code block>
-
-
+```
+example
+```python
 for index in range(0, 4):
     print(index)
-
+```
 
 
 index = 0 and end at 3
@@ -150,14 +156,12 @@ Q5:
 You will ask user a number 7 times.
 And return the multiplication of all 7 numbers.
 
-
 Step:
 1. create a variable "result" with value of 1.
 2. Create a loop that runs 7 times
     2a. In that loop take a number from user and store it in a variable, called "num"
     2b. we will multiple result with that number and store the valure in "result"
 3. Print the final result.
-
 
 Step:
 1. Take a number from user, and store it in n.
@@ -171,8 +175,6 @@ Step:
 Q6:
 Print # triangle of 10 lines
 
-
-
 Step:
 1. Create a loop that runs 10 times, denoting 10 lines.
     1a. In each iteration, print "#" number of line times.
@@ -180,10 +182,7 @@ Step:
 Hint: to print "#" 5 times, we can write
 print("#"*5)
 
-
 #### while loop
-
-
 
 for loop -> you have to write "I want to eat ice cream" 10 times
 
@@ -205,9 +204,7 @@ Guess game: There will be a system generated number, with value 58.
 We will take a number from user, if the number is greater than system generated number we will print, "You won"
 else, we will continue to ask a number from user.
 
-
 Steps
-
 1. Create a system generated number with value 58.
 2. Take a number from user
 3. Create a while loop that runs if the number is less than or equal to the system generated number.
