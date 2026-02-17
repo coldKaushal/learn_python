@@ -195,6 +195,21 @@ while <condition>:
     <code block>
     <optionally i can add a breaking condition"
 ```
+example
+
+```python
+while True:
+    print("I will eat ice cream")
+    condition = input("Do you want to continue? (yes/no): ")
+    if condition == "yes":
+        continue
+    elif condition == "no":
+        break
+    else:
+        print("Oye, i asked yes or no")
+        exit()
+print("Loop ended gracefully")
+```
 
 
 
