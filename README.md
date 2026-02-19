@@ -1,6 +1,6 @@
 # Python beginner class
 
-### Variables
+# Variables
 variables are jars or containers. 
 
 Just like we can store anything in jar, like dal, rice, sugar etc. In variables we can store data. 
@@ -13,7 +13,7 @@ example
 number1 = 10
 ```
 
-### Data types
+# Data types
 Just like, there can be different types of things that can be stored in jar, for example dal, rice, water, oil etc etc. There can be different types of data.
 
 In python data can be
@@ -21,7 +21,7 @@ In python data can be
 2. Decimal
 3. String
 
-#### Integer
+## Integer
 integers, are whole numbers from negative to positive
 example, 10, -10, 0 etc
 
@@ -29,6 +29,7 @@ example, 10, -10, 0 etc
 number1 = 10
 print(type(number1))
 ```
+
 
 
 ### Conditional
@@ -71,7 +72,23 @@ else:
 !=
 ```
 
+### Arithemtic operator
+```
++ 
+-
+/
+*
+% -> modulo
 
+7 ko 2 se divide toh remainder -> 1
+7%2 = 1
+10%3 = 1
+12%4 = 0
+even % 2 = 0
+number%2 =1  -> odd
+
+
+```
 ## Project 1
 
 We will ask user, what operation they want to do, like addition, subtraction, multiplication and division.
@@ -182,6 +199,15 @@ Step:
 Hint: to print "#" 5 times, we can write
 print("#"*5)
 
+##### Concept of stepping
+
+```python
+# stepping of 2
+for index in range(0, N, 2):
+    <code>
+```
+
+
 #### while loop
 
 for loop -> you have to write "I want to eat ice cream" 10 times
@@ -226,3 +252,13 @@ Steps
     3a. Print -> Try again
     3b. Take the number from user again 
 4. Print -> You won
+
+subjects = 5
+
+counter 0 -> marks 1 -> counter + 1
+counter 1 -> marks 2 -> counter + 1
+counter 2 -> marks 3 -> counter + 1
+counter 3 -> marks 4 -> counter + 1
+counter 4 -> marks 5 -> counter + 1
+
+counter 5 -> loop should end

@@ -44,4 +44,17 @@
 # if True:
 #     print("I want to eat ice cream")
 
+# Question 7 solution
 
+name = input("Tell me your name: ")
+subjects = int(input("Tell me total subjects: "))
+result = 0
+counter = 0
+
+while counter < subjects:
+    marks = int(input("Tell me your marks: "))
+    result += marks 
+    counter += 1
+
+percentage = result / subjects
+print("Your percentage is: ", percentage)

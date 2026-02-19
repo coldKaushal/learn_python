@@ -57,12 +57,19 @@
 # for count in range(1, 6):
 #     print("#"*count)
 
-name = input("Tell me your name: ")
+# name = input("Tell me your name: ")
 
-subjects = int(input("Tell me total subjects: "))
-result = 0
-for subject in range(0, subjects):
-    marks = int(input("Tell me your marks: "))
-    result += marks
+# subjects = int(input("Tell me total subjects: "))
+# result = 0
+# for subject in range(0, subjects):
+#     marks = int(input("Tell me your marks: "))
+#     result += marks
 
-print("Total percentage of student is: ", result/subjects)
+# print("Total percentage of student is: ", result/subjects)
+
+
+# Printing even numbers between 0 and 50
+# for number in range(0, 50, 2):
+#     print(number)
+
+# print(list(range(0, 50, 2)))
