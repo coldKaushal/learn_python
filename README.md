@@ -253,12 +253,22 @@ Steps
     3b. Take the number from user again 
 4. Print -> You won
 
-subjects = 5
+Question 7
 
-counter 0 -> marks 1 -> counter + 1
-counter 1 -> marks 2 -> counter + 1
-counter 2 -> marks 3 -> counter + 1
-counter 3 -> marks 4 -> counter + 1
-counter 4 -> marks 5 -> counter + 1
+There is a password to a device, which is confidential. Password is "pineapple". The user will attempt to unlock the device by writing the password. If the user enters correct password, we print "Device is unlocked" else user can retry. But, can only retry 3 times. If user is unable to guess password in 3 tries, we print "Device locked permanently".
 
-counter 5 -> loop should end
+"intuition"
+1. i will need a variable to store the actual password
+2. i will need to ask user their guessed password.
+3. i need to keep track of retries, i will need a variable to store the number of attempts made by user.
+4. if user guesses correctly withing allowed retires, we print "Device Unlocked" and exit.
+5. If number of attempts are exhausted, then we print "Device unlocked permanently" and exit.
+
+steps:
+1. result = "pineapple"
+2. for loop from 0 to number of retries which is 3.
+    2.a. In loop, we take their guessed password.
+    2.b. Then we check if the guessed password is equal to the actual password. If yes, we print and exit
+    2.c If not equal, we continue the loop
+3. If loop is over, we print and exit
+

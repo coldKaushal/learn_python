@@ -46,15 +46,30 @@
 
 # Question 7 solution
 
-name = input("Tell me your name: ")
-subjects = int(input("Tell me total subjects: "))
-result = 0
-counter = 0
+# name = input("Tell me your name: ")
+# subjects = int(input("Tell me total subjects: "))
+# result = 0
+# counter = 0
 
-while counter < subjects:
-    marks = int(input("Tell me your marks: "))
-    result += marks 
-    counter += 1
+# while counter < subjects:
+#     marks = int(input("Tell me your marks: "))
+#     result += marks 
+#     counter += 1
 
-percentage = result / subjects
-print("Your percentage is: ", percentage)
+# percentage = result / subjects
+# print("Your percentage is: ", percentage)
+
+# Guess game: There will be a system generated number, with value 58.
+# We will take a number from user, if the number is greater than system generated number we will print, "You won"
+# else, we will continue to ask a number from user.
+
+# if number is greater than system wala number => loop mei nahi jana chaiye
+
+result = 58
+number = int(input("Enter your number: "))
+
+while number <= result:
+    print("Wrong guess, try again!")
+    number = int(input("Enter your number: "))
+
+print("You won!")

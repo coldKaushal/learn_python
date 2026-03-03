@@ -1,3 +1,4 @@
+
 # dessert_train = ["ice cream", "cake", "cookies", "brownies", "pie"]
 # for index in range(0, 5):
 #     print(index)
@@ -73,3 +74,22 @@
 #     print(number)
 
 # print(list(range(0, 50, 2)))
+
+# steps:
+# 1. result = "pineapple"
+# 2. for loop from 0 to number of retries which is 3.
+#     2.a. In loop, we take their guessed password.
+#     2.b. Then we check if the guessed password is equal to the actual password. If yes, we print and exit
+#     2.c If not equal, we continue the loop
+# 3. If loop is over, we print and exit
+
+result = "pineapple"
+for retry in range(0, 3):
+    guessed_password = input("Enter your guessed password: ")
+    if guessed_password == result:
+        print("You guessed it right!")
+        exit()
+    else:
+        print("Wrong password, try again!")
+
+print("You have exhausted all your retries, better luck next time!")
