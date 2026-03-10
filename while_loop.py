@@ -65,11 +65,33 @@
 
 # if number is greater than system wala number => loop mei nahi jana chaiye
 
-result = 58
-number = int(input("Enter your number: "))
+# result = 58
+# number = int(input("Enter your number: "))
 
-while number <= result:
-    print("Wrong guess, try again!")
-    number = int(input("Enter your number: "))
+# while number <= result:
+#     print("Wrong guess, try again!")
+#     number = int(input("Enter your number: "))
 
-print("You won!")
+# print("You won!")
+
+# steps:
+# 1. result = "pineapple"
+# 2. retries = 3
+# 3. create a while loop with condition retries > 0
+#     3a. in this loop, we will take their guessed password
+#     3b. We will check if guessed password matches result, if yes we will print and exit.
+#     3c. else, we will reduce retries by 1
+# 4. when loop is over, that means retries are exhausted and we print and return.
+
+result = "pineapple"
+retries = 3
+while retries > 0:
+    guessed_password = input("Enter your guessed password: ")
+    if guessed_password == result:
+        print("You guessed it right!")
+        exit()
+    else:
+        print("Wrong password, try again!")
+        retries =  retries - 1
+
+print("You have exhausted all your retries, better luck next time!")

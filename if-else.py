@@ -71,3 +71,38 @@ else:
 # multiple if else = 2 or more independent if else statements in a code.
 # normal if else = 1 if else statement in a code.
 # nested if else = an if else statement inside another if else statement.
+
+
+
+# there are 2 conditions to meet, if both conditions are true we do one then thing else we dont do anything anything
+
+# weather = "sunny"
+# temperature = 30
+
+# user se hum weather lenge, aur temperature lenge. agr dono same hai, 
+# toh hum print karenge "Go outside and play". 
+# else we will print "Stay inside and study"
+
+# weather = input("Enter the weather: ")
+# temperature = int(input("Enter the temperature: "))
+
+# if weather == "sunny":
+#     if temperature == 30:
+#         print("Go outside and play")
+#     else:
+#         print("Stay inside and study")
+# else:
+#     print("Stay inside and study")
+
+
+
+# if weather == "sunny" and temperature == 30:
+#     print("Go outside and play")
+# else:
+#     print("Stay inside and study")
+
+
+# if weather == "sunny" or temperature == 30:
+#     print("Go outside and play")
+# else:
+#     print("Stay inside and study")

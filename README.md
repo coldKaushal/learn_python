@@ -272,3 +272,78 @@ steps:
     2.c If not equal, we continue the loop
 3. If loop is over, we print and exit
 
+
+steps:
+1. result = "pineapple"
+2. retries = 3
+3. create a while loop with condition retries > 0
+    3a. in this loop, we will take their guessed password
+    3b. We will check if guessed password matches result, if yes we will print and exit.
+    3c. else, we will reduce retries by 1
+4. when loop is over, that means retries are exhausted and we print and return.
+
+
+### Functions
+
+maths mei formulas
+f(x) = 2x+5 calculate this for value of x = 10
+
+2(10) + 5 = 25
+
+programming language mei such formulas are called functions.
+
+function is a piece of code, which executes on demand.
+
+
+there is a person, ticket collector.
+Ticket collector, whenever a person comes, he checks the ticket and if ticket is not present, he takes the fine,
+
+
+1 person aya => ticket collector operates.
+
+function name is calculator, which takes 2 number and adds it, and return the sum.
+f(x, y) = x + y
+
+```python
+def function_name(param1, param2, ...):
+    <code>
+    return <something>
+```
+
+a function takes something, does something and returns something
+
+here something can be even nothing.
+
+example for a additon function.
+
+the return statement, exits the function only and returning the value
+but exit, quits the entire programming, halting everything.
+```python
+def addition(number1, number2):
+    result = number1 + number2
+    return result
+
+result = addition(10, 20)
+```
+
+example of a function that returns nothing
+```python
+def addition(number1, number2):
+    result = number1 + number2
+    print(result)
+
+addition(10, 20)
+```
+
+Always remember, a function is called only on demand.
+"If there is any error inside function, it won't be caught unless it is called"
+
+HomeWork 1:
+Go over everything we have done, and find as many functions as you can that we used, for example print(), type(), len()
+
+how to spot a function
+it has a name, followed by round brackets.
+
+HomeWork 2:
+Create a subtract function and call it.
+
