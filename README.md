@@ -347,3 +347,87 @@ it has a name, followed by round brackets.
 HomeWork 2:
 Create a subtract function and call it.
 
+
+Q9:
+We will create a custom function like range function.
+range(start, end) -> [start, start+1, start+2, ... end-1]
+
+
+we will create a function, name will custom_range. 
+This function will take 2 parameters, start parameter and end parameter.
+and just like range, this function will return a list with value starting from start till end-1.
+
+Intuition
+1. function banana padega, uske andr 2 parameters one is start and another is end
+2. if i create an empty list, and using a loop, i keep adding element to that list.
+3. i will create a while loop, i will create a counter which equals start, in that loop we will do this. and keep doing until counter < end.
+    3a. i will add counter to the list.
+    3b. I will increment counter
+4. return list
+
+
+Q10:
+create a function that takes 3 paramter which are names of your favorite dish, this function adds these dishes to an array and return it.
+
+steps:
+1. create function with 3 parameters
+2. in this function, create an empty list called result
+3. one by one we will add all parameter in the list and return it
+4. call this function and print it.
+
+
+
+Q10
+write a function, that takes a paramter number. The function will print "valid" if number is between 1 to 100, else "invalid".
+
+intuition
+1. we need to create function, we need to give it a name.
+2. it takes 1 parameter
+3. we need to if else.
+4. for if condition to be true, condition is: number should be greater than 1 and less than 100.
+5. If condition is true, we print "valid"
+6. else, we print "invalid"
+
+Q11:
+We will create a function, that takes input which is a string, and returns the length of  the string.
+for example:
+if input is "tejasvi" the output would be 7
+if input is "tomato" the output would be 6
+
+## Classes
+
+programming language, those are OOPS -> Object oriented programming language
+1. abstraction -> abstracting common logic
+2. encapsulation -> hiding logic that doesn't need to be exposed.
+3.
+4.
+5
+
+
+## programming langauge
+
+basic level -> binary language (0s and 1s) -> machine only understand this.
+assembly language -> this is 2nd level of langauge whick some internal hardware understand
+third language -> programming langauge, ex python
+
+python code -> compiler compiles the code -> then it becomes 0s and 1s -> then machine mei run hota
+
+for python code, compiler takes time
+for c, c++ it takes less time, almost 10 times less
+
+but, assembly language takes even  less time for compile
+
+majority OS level kaam, for example starting your PC, cleaning pc, creating folders -> assembly language
+
+
+binary code
+00100 001001
+
+
+assembly -> more human readable
+
+EMF = 10
+BEGIN
+RT = 4
+END
+SKIP
