@@ -16,6 +16,33 @@ only 1 will start the work, i am the admin (this is like main function)
 i will call whoever i want to do the work, whenver needed.
 
 
+## Good practice
+Pactice 1
+always write code that needs to run under main
+inside
+
+```python
+if __name__ == "__main__":
+    <code>
+```
+
+Practice 2:
+Always create functions to write one type of logical part -> this improves redability and maintanibility and less space.
+
+Practice 3:
+Always create meaningful variable names and function names
+
+example of bad name
+```python
+def abc(n, m):
+    return n+m
+```
+example of good name
+```python
+def addition(number1, number2):
+    return number1 + number2
+```
+
 ## Project 1: Calculator
 
 We will ask user what type of operation they want to perform.

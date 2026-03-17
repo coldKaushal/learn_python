@@ -1,34 +1,59 @@
 # use this as a reference and write all the functions.
 # Run the file and verify.
-# def addition(num1, num2):
-#     return num1 + num2
+def addition(num1, num2):
+    return num1 + num2
+
+def subtraction(num1, num2):
+    return num1 - num2
+
+def multiply(num1, num2):
+    return num1 * num2
+
+def divide(num1, num2):
+    if num2 == 0:
+        print("undefined")
+        exit()
+    return num1 / num2
+def check_valid_operation(option):
+    if option >= 1 and option <= 4:
+        return True
+    return False
+
+# this is called refactoring
+def calculator(option, num1, num2):
+    result = 0
+    if option == 1:
+        result = addition(num1, num2)
+    if option == 2:
+        result = subtraction(num1, num2)
+    if option == 3:
+        result = multiply(num1, num2)
+    if option == 4:
+        result = divide(num1, num2)
+    return result
+
+def print_menu():
+    print("Welcome to calculator app")
+    print("Pick one of these options to perform calculation")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
 
 
-print("Welcome to calculator app")
-print("Pick one of these options to perform calculation")
-print("1. Addition")
-print("2. Subtraction")
-print("3. Multiplication")
-print("4. Division")
+# main function
+if __name__ == "__main__":
+    print_menu()
+    option = int(input("Enter your option: "))
+    if check_valid_operation(option) ==  False:
+        print("Invalid option, exiting the app")
+        exit()
 
-option = int(input("Enter your option: "))
-if check_valid_operation(option) ==  False:
-    print("Invalid option, exiting the app")
-    exit()
+    number1 = int(input("Enter first number: "))
+    number2 = int(input("Enter second number: "))
 
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
-result = 0
-if option == 1:
-    result = addition(number1, number2)
-if option == 2:
-    result = subtraction(number1, number2)
-if option == 3:
-    result = multiply(number1, number2)
-if option == 4:
-    result = divide(number1, number2)
-
-print("The result is: ", result)
+    result = calculator(option, number1, number2)
+    print("The result is: ", result)
 
 ## TODOs
 # In total we need to write 5 functions.
