@@ -17,5 +17,13 @@ If user selects 3, we will exit the program.
 # HW
 Build the intuition and write how we can tackle this problem.
 
-intuition 1:
-i will need a menu function using which i can show user a menu.
+intuitions:
+1. i will need a menu function using which i can show user a menu.
+2. we will need to ask input, which will be 1, 2 and 3.
+3. to add new tasks, we can use arrays and add task using append(). -> we have to take the task from user.
+4. to view tasks -> we can simply print array
+5. we can use while loop in which we will do all process and loop will exist if user selects 3.
+
+
+
+what data type can hold multiple desserts -> arrays
